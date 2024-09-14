@@ -68,11 +68,11 @@ export default function Watchlist({
               <th>Name</th>
               <th className="flex gap-1.5 justify-center">
                 <div onClick={sortIncreasing}>
-                  <i class="fa-solid fa-arrow-down hover:cursor-pointer"></i>
+                  <i className="fa-solid fa-arrow-down hover:cursor-pointer"></i>
                 </div>
                 <div>Ratings</div>
                 <div onClick={sortDecreasing}>
-                  <i class="fa-solid fa-arrow-up hover:cursor-pointer"></i>
+                  <i className="fa-solid fa-arrow-up hover:cursor-pointer"></i>
                 </div>
               </th>
               <th>Popularity</th>
@@ -112,7 +112,7 @@ export default function Watchlist({
                         removeFromWatchlist(movieObj);
                       }}
                     >
-                      <i class="fa-solid fa-trash"></i>
+                      <i className="fa-solid fa-trash"></i>
                     </td>
                   </tr>
                 );

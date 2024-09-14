@@ -26,7 +26,7 @@ export default function MovieCard({
           }}
           className="m-4 h-8 w-8  rounded-lg bg-blue-500/60 flex items-center justify-center text-red-600"
         >
-          <i class="fa-solid fa-trash"></i>
+          <i className="fa-solid fa-trash"></i>
         </div>
       ) : (
         <div
@@ -35,7 +35,7 @@ export default function MovieCard({
           }}
           className="m-4 h-8 w-8   rounded-lg bg-blue-500/60 flex items-center justify-center"
         >
-          <i class="fa-solid fa-square-plus"></i>
+          <i className="fa-solid fa-square-plus"></i>
         </div>
       )}
       <div className="text-white text-center w-full text-xl p-2 bg-gray-900/60 rounded-b-xl ">
