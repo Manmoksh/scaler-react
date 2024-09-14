@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./App.css";
 import Navbar from "./components/Navbar";
 import Movies from "./components/Movies";
 import Watchlist from "./components/Watchlist";
